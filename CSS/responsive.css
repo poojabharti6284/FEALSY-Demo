@@ -37,12 +37,12 @@
 	}
 
 	.hero {
-		width: 62%;
+		width: 55%;
 		padding: 0;
 	}
 
 	.hero p {
-		font-size: 36px;
+		font-size: 32px;
 	}
 
 
@@ -69,7 +69,7 @@
 	}
 
 	.form {
-		width: 34%;
+		width: 40%;
 		padding: 40px 30px;
 	}
 
@@ -128,9 +128,11 @@
 	}
 
 
-	.footer-links, .footer-social, .footer-contact {
-    width: calc((100% - 48px) * 1 / 5);
-}
+	.footer-links,
+	.footer-social,
+	.footer-contact {
+		width: calc((100% - 48px) * 1 / 5);
+	}
 
 	.footer-social {
 		text-align: center;
@@ -141,7 +143,11 @@
 		justify-content: left;
 	}
 
-	    /* .footer-about {
+	input.last-form {
+		padding: 18px 16px 49px 10px;
+	}
+
+	/* .footer-about {
         width: calc(191% - 1751px);
     } */
 
@@ -150,7 +156,7 @@
 	}
 
 	.path-content {
-		max-width: 361px;
+		max-width: 426px;
 	}
 
 	.path-btn {
@@ -160,7 +166,7 @@
 
 	.hero h4 {
 		width: 285.8px;
-		line-height: 27px;
+		line-height: 26px;
 	}
 }
 
@@ -193,7 +199,8 @@
 	}
 
 	.navbar li {
-		font-size: 13px;
+		font-size: 20px;
+		margin-bottom: 20px;
 	}
 
 	.navbar img {
@@ -267,6 +274,7 @@
 
 	.path-content h3 {
 		font-size: 24px;
+
 	}
 
 	.list {
@@ -373,10 +381,10 @@
 		margin-top: 20px;
 	}
 
-	    h1 {
-        font-size: 46px;
-        line-height: 2.3;
-    }
+	h1 {
+		font-size: 46px;
+		line-height: 2.3;
+	}
 
 	.path-btn {
 		right: 40px;
@@ -388,6 +396,7 @@
 	}
 
 	.card {
+		width: calc(47.33% - 14px);
 		max-width: 100%;
 		margin-bottom: 30px;
 		text-align: center;
@@ -446,7 +455,7 @@
 
 	.path-content h3 {
 		font-size: 15px;
-		line-height: 0;
+		line-height: 1;
 		margin-bottom: 20px;
 	}
 
@@ -475,7 +484,7 @@
 	}
 
 	.path-content {
-		max-width: 230px;
+		max-width: 265px;
 	}
 
 	.footer-bottom {
@@ -511,11 +520,21 @@
 		text-align: center;
 	}
 
-	 .topnav a {
-        font-size: 14px;
-    }
+	.topnav a {
+		font-size: 14px;
+	}
 
-	
+	.title h2 {
+		margin-bottom: 30px;
+	}
+
+
+}
+
+@media (max-width: 768px) {
+	.path-content {
+		max-width: 180px;
+	}
 }
 
 /* =========================
@@ -529,7 +548,7 @@
 	}
 
 	h2 {
-		font-size: 24px;
+		font-size: 34px;
 		line-height: 1.2;
 	}
 
@@ -543,7 +562,7 @@
 	}
 
 	.title h2 {
-		margin-bottom: 30px;
+		margin: 30px 0 0;
 	}
 
 
@@ -614,7 +633,7 @@
 	.local a,
 	section.how-its a,
 	.contact a {
-		width: 100%;
+		/* width: 100%; */
 		box-sizing: border-box;
 		text-align: center;
 		padding: 10px !important;
@@ -664,9 +683,13 @@
 		font-size: 12px;
 	}
 
+	.navbar a {
+		font-size: 14px;
+	}
+
 	.cta-btn {
-    display: none;
-  }
+		display: none;
+	}
 
 	/* 
 	.hamburger {
@@ -806,5 +829,9 @@
 	.topnav a svg {
 		width: 22px;
 		height: 22px;
+	}
+
+	.navbar img {
+		max-width: 100px;
 	}
 }
